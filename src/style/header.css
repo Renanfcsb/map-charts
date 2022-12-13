@@ -1,0 +1,33 @@
+.header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-tjmt{
+    width: 500px;
+    height: auto;
+    cursor: pointer;
+}
+.logo-coord{
+    width: 350px;
+}
+.name-dmp{
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    letter-spacing: -1px;
+    margin: 0 auto;
+}
+strong{
+    font-weight: 600;
+}
+.logo-dmp{
+    width: 350px; /* width of container */
+    height: 140px; /* height of container */
+    object-fit: cover;
+    object-position: 0px 10px; /* try 20% 10% */ 
+}

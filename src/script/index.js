@@ -21,20 +21,20 @@
     // property by default. See API docs for 'joinBy' for more info on linking
     // data and map.
     const data = [
-        ['Apiacás', 200], ['Cuiabá', 101], ['Água Boa', 112], ['br-sc', 13],
-        ['Alta Floresta', 14], ['br-ap', 15], ['br-ms', 16], ['br-mg', 17],
-        ['br-go', 18], ['br-rs', 19], ['br-to', 20], ['br-pi', 21],
-        ['br-al', 22], ['br-pb', 23], ['br-ce', 24], ['br-se', 25],
-        ['br-rr', 26], ['br-pe', 27], ['br-pr', 28], ['br-es', 29],
-        ['br-rj', 30], ['br-rn', 31], ['br-am', 32], ['br-mt', 33],
-        ['br-df', 34], ['br-ac', 35], ['br-ro', 36]
+        ['Apiacás', 5], ['Cuiabá', 50], ['Água Boa', 40], ['Alta Floresta', 25],
+        ['Alto Taquari', 5], ['Arenápolis', 5], ['Barra do Bugres', 15], ['Barra do Garças', 30],
+        ['Brasnorte', 10], ['Campo Novo do Parecis', 10], ['Campo Verde', 10], ['Canarana', 10],
+        ['Chapada dos Guimarães', 10], ['Claúdia', 6], ['Colíder', 15], ['Colniza', 15],
+        ['Comodoro', 16], ['Diamantino', 8], ['Feliz Natal', 6], ['Jaciara', 5],
+        ['Juara', 10], ['Juína', 10], ['Juscimeira', 8], ['Matupá', 33],
+        ["Mirassol d'Oeste", 10], ['Nortelândia', 18], ['Nova Canaa do Norte', 10],['Nova Mutum', 75], ['Nova Ubiratã', 10], ['Nova Xavantina', 25], ['Novo são Joaquim', 7], ['Paranaíta', 10 ], ['Paranatinga', 25], ['Pedra Preta', 5], ['Porto Alegre do Norte', 40], ['Poxoréo', 15], ['Primavera do Leste', 40], ['Querência', 10], ['Rondonópolis', 40], ['Rosário Oeste', 20]
     ];
 
     // Create the chart
     Highcharts.mapChart('container-map', {
         chart: {
             map: topology,
-            backgroundColor: 'aliceblue'
+            backgroundColor: 'aliceblue',
         },
 
         title: {

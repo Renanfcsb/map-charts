@@ -1,0 +1,12 @@
+.highcharts-credits{
+    display: none;
+}
+.highcharts-exporting-group{
+    display: none;
+}
+
+#container-map {
+    height: 500px;
+    width: 30vw;
+    background-color: aliceblue;
+}
