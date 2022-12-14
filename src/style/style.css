@@ -1,13 +1,6 @@
 body{
-    height: 200vh;
-    background-color: aliceblue;
-}
-
-
-.loading {
-    margin-top: 10em;
-    text-align: center;
-    color: gray;
+    height: 220vh;
+    background-color: var(--brand-back);
 }
 
 .container-all{
@@ -15,4 +8,3 @@ body{
     display: flex;
     height: 500px;
 }
-

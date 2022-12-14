@@ -41,10 +41,6 @@
             text: 'Mapa Distributivo de Atividade'
         },
 
-        subtitle: {
-            text: 'Mato-Grosso'
-        },
-
         mapNavigation: {
             enabled: true,
             buttonOptions: {

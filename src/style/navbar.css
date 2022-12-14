@@ -1,7 +1,7 @@
 
 
 .nav-bar{
-    margin-top: 159px;
+    margin-top: 140px;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -10,8 +10,9 @@
     width: 90px;
     overflow: hidden;
     transition: width 0.2s linear;
-    box-shadow: 0 28px 35px rgba(0, 0, 0, 0.1);
-    background-color:white;
+    box-shadow: 0 28px 35px var(--shadow);
+    background-color:var(--vanish);
+    z-index: 1;
 }
 
 .logo{
@@ -30,13 +31,13 @@ border-radius : 50%
     font-weight: bold;
     padding: 15px;
     font-size: 18px;
-    text-transform: upperd
+    text-transform: uppercase;
 
 }
 
 a{
     position: relative;
-    color: rgb(85, 83,83);
+    color: var(--brand1);
     font-size: 14px;
     display: table;
     width: 300px;
@@ -57,7 +58,7 @@ a{
 }
 
 a:hover{
-    background: #eee;
+    background: var(--brand3);
 }
 nav:hover{
 width: 280px;
