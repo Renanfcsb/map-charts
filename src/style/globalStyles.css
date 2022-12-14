@@ -5,6 +5,7 @@
 @import url(style.css);
 @import url(filter.css);
 @import url(totalizadores.css);
+@import url(print.css);
 
 :root{
     --brand1: rgb(57,66,112);
